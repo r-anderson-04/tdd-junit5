@@ -13,5 +13,11 @@ public class FizzBuzz {
 
         return false;
     }
+
+    public boolean isFizzBuzz(int p) {
+        if(isFizz(p) && isBuzz(p))  return true;
+
+        return false;
+    }
     
 }
