@@ -7,5 +7,11 @@ public class FizzBuzz {
         
         return false;
     }
+
+    public boolean isBuzz(int m) {
+        if(m%5 == 0)    return true;
+
+        return false;
+    }
     
 }
